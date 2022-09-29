@@ -1,0 +1,240 @@
+body {
+    padding: 10px;
+    font-family: 'Inter';
+}
+
+/* Side bar start */
+
+#side_nav {
+    background-color: rgb(228, 27, 35,0.05);
+    min-width: 350px;
+    max-width: 350px;
+    border-radius: 18px;
+    box-shadow: 2px 0px 4px rgb(112, 111, 111);
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+  
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.header-box {
+    border-radius: 24px;
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    width: 330px;
+    height: 280px;
+    box-shadow: 0px 2px  3px rgb(73, 72, 72);
+    -moz-border-radius:24px;
+    -webkit-border-radius:24px;
+    border-radius:24px;
+}
+
+.img-fluid {
+    margin-top: -10px;
+}
+
+.HeadText {
+    background-color: #E41B23;
+    padding: 10px;
+    text-align: center;
+    width: 130px;
+    translate: 80px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#drawer {
+ width: 360px;
+ margin-left:-20px; 
+ margin-top: 20px;
+}
+
+#drawer ul{
+    list-style: none;
+}
+
+
+
+#drawer ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+/* Side bar end */
+
+/* Content Start*/
+.border-bottom{
+    background-color: rgb(228, 27, 35,0.01);
+    padding: 20px;
+    margin: 28px 10px 0;
+    width: 240.21px;
+    height: 161.96px;
+    box-shadow: 0px 3px  3px rgb(73, 72, 72);
+  -moz-border-radius:24px;
+  -webkit-border-radius:24px;
+  border-radius:24px;
+    border-radius: 24px;
+}
+
+.border-bottom .img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+.border-bottom .img{
+    margin-top: 2px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px -1.5px 3px rgb(0, 0, 0);
+  -moz-border-radius:26px;
+  -webkit-border-radius:26px;
+  border-radius:26px;
+
+    
+}
+.itemname{
+    text-align: center;
+    color: #E41B23;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Content header */
+.content .text-center{
+    background-color: rgb(228, 27, 35,0.009);
+    color: #E41B23;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-bottom: #E41B23 solid 4px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+
+/* mcq page */
+
+.mcqpage h3{
+    background-color: #E41B23;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 10px;
+    border-radius: 12px;
+}
+.question{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: 0px 0 6px rgb(83, 82, 82);
+  -moz-border-radius:22px;
+  -webkit-border-radius:22px;
+  border-radius:22px;
+
+}
+.text-start{
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 30px;
+}
+.question .fs-6{
+    margin-top: 30px;
+    
+}
+.answer{
+    margin-top: 14px;
+}
+lable{
+    margin-left: 10px;
+}
+.text-end{
+    margin: 30px 1px 5px ;
+    color: #E41B23;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.SubMenu{
+    background-color: rgb(228, 27, 35,0.01);
+    padding: 10px;
+    width: 70px;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+.SubMenu .img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+.subname{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.marks{
+    height: 60px;
+    width: 60px;
+    background-color: #DCDCDC;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center ;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+.marks .text-center{
+    margin-top: 20px;
+}
+.sidemenu{
+    margin-left: 20px;
+    margin-right: 110px;
+}
+/* Responsive media query*/
+
+@media (max-width: 992px){
+    #side_nav {
+        min-width: 350px;
+        max-width: 350px;
+      
+    }
+    #drawer ul li{
+       font-size: 20px;
+       margin-top: 30px;
+    }
+    .border-bottom{
+        margin-top: 10px;
+    }
+    .content .text-center{
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .mcqpage h3{
+        background-color: #E41B23;
+        font-size: 20px;
+        color: #fff;
+        margin-top: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 10px;
+        border-radius: 12px;
+    }
+}
